@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* width card game */
+/* max-width  */
+@media (max-width: 900px) {
+  .li-control {
+    display: none; } }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "G-Lato-n7", "Arial";
+  text-decoration: none; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #CFECFE;
+  width: 100%;
+  height: 100px;
+  position: fixed; }
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #CFECFE;
+  height: 100px; }
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.wrapper main {
+  flex: 1; }
+
+/* header, nav , ul ,logo*/
+.controle-logo {
+  display: flex;
+  flex-direction: column;
+  margin: 30px; }
+
+.cloud-xp {
+  font-size: 48px;
+  color: #4388d1;
+  font-weight: 400; }
+
+.Buying {
+  font-size: 24px;
+  color: #404a52;
+  font-weight: 400; }
+
+.controle-nav {
+  display: flex;
+  text-decoration: none; }
+
+.li-control {
+  padding: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #596670; }
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline #98ADBB;
+  color: #404A52; }
+
+/* main banner */
+.h1-banner {
+  font-size: 50px;
+  margin: 40px; }
+
+.content-banner {
+  background: url(../imagens/controle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 1000px; }
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 72px;
+  text-shadow: 1px 1px black;
+  color: #404A52; }
+
+/* content-games */
+.h1-games {
+  font-size: 50px;
+  margin: 40px; }
+
+.content-games {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px; }
+
+/* game red dead */
+.red2 {
+  background-image: url(../imagens/reddead.jpg);
+  background-size: cover;
+  background-position: center bottom; }
+
+.posi-logo {
+  margin: 0 15px;
+  width: 50px;
+  height: 50px; }
+
+/* game gof of war */
+.gow {
+  background: url(../imagens/gow.jpg);
+  background-size: cover;
+  background-position: center bottom; }
+
+/* game sea */
+.sea {
+  background-image: url(../imagens/sea.jpg);
+  background-size: cover;
+  background-position: center bottom; }
+
+/* footer */
+.footer-control {
+  font-weight: bold;
+  font-size: 24px;
+  color: #404A52;
+  margin: 0 15px; }
+
+.componente-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 480px;
+  height: 370px;
+  background-color: red; }
+
+.componente-game:hover {
+  width: 500px;
+  height: 390px; }
+
+.componente-priecing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  background-color: grey; }
+
+.componente-priecing-red {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  background-color: #404A52; }
+
+.componente-priecing-gow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  background-color: #042A4A; }
+
+.componente-priecing-sea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  background-color: #42AB0A; }
+
+/* pre├ºo formata├º├úo */
+.preco {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff; }
+
+.gow-preco {
+  color: yellow; }
+
+/*componente pre- order */
+.componente-faixa {
+  background-color: #CFECFE;
+  width: 124px;
+  height: 38px; }
+
+.faixa {
+  color: #404A52;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 7px 5px; }
+
+/*
+
+Settings:   Global variables, config switches.
+Tools:      Default mixins and functions.
+Generic:    Ground-zero styles (Normalize.css, resets, box-sizing).
+Base:       Unclassed HTML elements (type selectors).
+Objects:    Cosmetic-free design patterns.
+Components: Designed components, chunks of UI.
+Trumps:     Helpers and overrides.
+
+*/
+
+/*# sourceMappingURL=styles.css.map */

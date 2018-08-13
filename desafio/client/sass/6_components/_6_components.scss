@@ -1,0 +1,75 @@
+.componente-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 480px;
+    height: 370px;
+    background-color: red;
+}
+
+
+.componente-game:hover{
+     width: 500px;
+    height: 390px;
+}
+
+.componente-priecing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    background-color: grey;
+}
+
+.componente-priecing-red{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: $width-card;
+    height: $height-card;
+    background-color: $cor_steam;
+}
+
+.componente-priecing-gow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: $width-card;
+    height: $height-card;
+    background-color: $cor_playstation;
+}
+
+.componente-priecing-sea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: $width-card;
+    height: $height-card;
+    background-color: $cor_microsoft;
+}
+/* preço formatação */
+.preco{
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    
+}
+
+.gow-preco{
+    color: yellow;
+}
+
+/*componente pre- order */
+.componente-faixa{
+    background-color: #CFECFE;
+    width: 124px;
+    height: 38px;
+}
+
+.faixa{
+    color: #404A52;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 7px 5px;
+}
